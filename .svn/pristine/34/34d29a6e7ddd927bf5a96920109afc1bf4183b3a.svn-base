@@ -1,0 +1,94 @@
+Cmp-Mod V01 Created by CvPcb (2013-03-25 BZR 4005 GOST)-stable date = 09.01.2015 16:20:58
+
+BeginCmp
+TimeStamp = /54AC3DE6;
+Reference = DD1;
+ValeurCmp = ATTINY13;
+IdModule  = SMD_SO8W_50_300;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AFA2A0;
+Reference = GB2;
+ValeurCmp = 2xCR2032;
+IdModule  = CONN_PLS-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AC3F81;
+Reference = GB3;
+ValeurCmp = CR2032;
+IdModule  = CONN_PLS-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AFA898;
+Reference = HL1;
+ValeurCmp = Status;
+IdModule  = SMD_Led_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AC4365;
+Reference = J1;
+ValeurCmp = J_JMP-3;
+IdModule  = CONN_PLS-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AC3E7A;
+Reference = R1;
+ValeurCmp = 1K;
+IdModule  = SMD_R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AC44C7;
+Reference = R2;
+ValeurCmp = 500;
+IdModule  = SMD_R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AC6940;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = SMD_R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AFAB2E;
+Reference = R4;
+ValeurCmp = 1K;
+IdModule  = SMD_R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ACEFD5;
+Reference = VS1;
+ValeurCmp = CR02AM-8;
+IdModule  = DISCRET_PACK_TO92-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AC6461;
+Reference = XP1;
+ValeurCmp = Flashlight;
+IdModule  = CONN_PLS-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AC3EFB;
+Reference = XP2;
+ValeurCmp = ISP;
+IdModule  = CONN_PLD-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AFA622;
+Reference = XS1;
+ValeurCmp = RF Link;
+IdModule  = CONN_PBS-3;
+EndCmp
+
+EndListe

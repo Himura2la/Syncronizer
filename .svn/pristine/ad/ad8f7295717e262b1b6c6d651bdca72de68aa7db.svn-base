@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xsi:noNamespaceSchemaLocation="Project.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Version current="1"/>
+	<Format>Project</Format>
+	<Header>
+		<Program name="TopoR" version="6.0"/>
+		<GUID>{54D15D00-DD14-45D9-BBAE-314DB3D4B0A1}</GUID>
+		<Annotation>Project file</Annotation>
+	</Header>
+	<Document>
+		<LocalLibrary />
+		<Pcb>
+			<File path=".\reviever.fsx" Folder="-1" isopened="0"/>
+		</Pcb>
+		<Import>
+			<Specctra>
+			<Path name="C:\Users\Himura\Desktop\Syncronizer\RCVR\reviever.dsn"/>
+			<Path name="K:\Serega\askick.dsn"/>
+			</Specctra>
+		</Import>
+		<ARouteSessions>
+			<Session name="reviever" date="2015-01-09 16:46:43" path=".\autoroute_reviever_150109164643\">
+			<File path=".\autoroute_reviever_150109164643\reviever_262-0s.fsb" Folder="-1" isopened="0"/>
+			</Session>
+		</ARouteSessions>
+	</Document>
+</Project>

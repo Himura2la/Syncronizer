@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xsi:noNamespaceSchemaLocation="Project.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Version current="1"/>
+	<Format>Project</Format>
+	<Header>
+		<Program name="TopoR" version="6.0"/>
+		<GUID>{19037362-8B1F-404B-9ED5-8511D0B9FCB3}</GUID>
+		<Annotation>Project file</Annotation>
+	</Header>
+	<Document>
+		<LocalLibrary />
+		<Pcb>
+			<File path=".\transmitter.fsx" Folder="-1" isopened="1"/>
+		</Pcb>
+		<Import>
+			<Specctra>
+			<Path name="C:\Users\Himura\Desktop\Syncronizer\TRMTR\transmitter.dsn"/>
+			</Specctra>
+		</Import>
+		<ARouteSessions>
+			<Session name="transmitter" date="2015-01-09 16:27:17" path=".\autoroute_transmitter_150109162717\">
+			<File path=".\autoroute_transmitter_150109162717\transmitter_280-0s.fsb" Folder="-1" isopened="0"/>
+			</Session>
+		</ARouteSessions>
+	</Document>
+</Project>

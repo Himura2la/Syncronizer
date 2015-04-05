@@ -1,0 +1,393 @@
+Archive member included because of file (symbol)
+
+e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_exit.o)
+                              e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr25/crttn13a.o (exit)
+e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_copy_data.o)
+                              Reciever.o (__do_copy_data)
+e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_clear_bss.o)
+                              Reciever.o (__do_clear_bss)
+e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr25\libc.a(memcmp.o)
+                              Reciever.o (memcmp)
+
+Allocating common symbols
+Common symbol       size              file
+
+pat_rcvd            0x8               Reciever.o
+sig_rcvd            0x8               Reciever.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00002000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr25/crttn13a.o
+LOAD Reciever.o
+START GROUP
+LOAD e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr25\libm.a
+END GROUP
+LOAD e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a
+LOAD e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr25\libc.a
+LOAD e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0x268
+ *(.vectors)
+ .vectors       0x00000000       0x14 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr25/crttn13a.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000014                . = ALIGN (0x2)
+                0x00000014                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000014        0x0 linker stubs
+ *(.trampolines*)
+                0x00000014                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000014                __ctors_start = .
+ *(.ctors)
+                0x00000014                __ctors_end = .
+                0x00000014                __dtors_start = .
+ *(.dtors)
+                0x00000014                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000014        0x0 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr25/crttn13a.o
+                0x00000014                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000014        0x8 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr25/crttn13a.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000001c       0x16 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_copy_data.o)
+                0x0000001c                __do_copy_data
+ .init4         0x00000032       0x10 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_clear_bss.o)
+                0x00000032                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000042        0x4 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr25/crttn13a.o
+ *(.init9)
+ *(.text)
+ .text          0x00000046        0x2 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr25/crttn13a.o
+                0x00000046                __vector_1
+                0x00000046                __bad_interrupt
+                0x00000046                __vector_3
+                0x00000046                __vector_7
+                0x00000046                __vector_5
+                0x00000046                __vector_4
+                0x00000046                __vector_9
+                0x00000046                __vector_2
+                0x00000046                __vector_8
+ .text          0x00000048      0x188 Reciever.o
+                0x00000048                ports
+                0x00000052                timer
+                0x0000005e                debug
+                0x0000006c                sig_reset
+                0x00000092                __vector_6
+                0x000001a6                blink
+ .text          0x000001d0        0x0 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_exit.o)
+ .text          0x000001d0        0x0 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_copy_data.o)
+ .text          0x000001d0        0x0 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_clear_bss.o)
+ .text          0x000001d0        0x0 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr25\libc.a(memcmp.o)
+                0x000001d0                . = ALIGN (0x2)
+ *(.text.*)
+ .text.startup  0x000001d0       0x7a Reciever.o
+                0x000001d0                main
+ .text.libgcc   0x0000024a        0x0 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_exit.o)
+ .text.libgcc   0x0000024a        0x0 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000024a        0x0 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x0000024a       0x1a e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr25\libc.a(memcmp.o)
+                0x0000024a                memcmp
+                0x00000264                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000264        0x0 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_exit.o)
+                0x00000264                _exit
+                0x00000264                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000264        0x4 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000268                _etext = .
+
+.data           0x00800060       0x12 load address 0x00000268
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr25/crttn13a.o
+ .data          0x00800060       0x11 Reciever.o
+                0x00800060                sig_pat
+                0x00800068                pat_need
+                0x00800070                data
+ .data          0x00800071        0x0 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_exit.o)
+ .data          0x00800071        0x0 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_copy_data.o)
+ .data          0x00800071        0x0 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_clear_bss.o)
+ .data          0x00800071        0x0 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr25\libc.a(memcmp.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800072                . = ALIGN (0x2)
+ *fill*         0x00800071        0x1 00
+                0x00800072                _edata = .
+                0x00800072                PROVIDE (__data_end, .)
+
+.bss            0x00800072       0x18
+                0x00800072                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800072        0x0 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr25/crttn13a.o
+ .bss           0x00800072        0x8 Reciever.o
+                0x00800072                rf_prev_sate
+                0x00800073                rf_cur_sate
+                0x00800074                ONLINE
+                0x00800075                j
+                0x00800076                FIRE
+                0x00800077                i
+                0x00800078                pat_status
+                0x00800079                status
+ .bss           0x0080007a        0x0 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_exit.o)
+ .bss           0x0080007a        0x0 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_copy_data.o)
+ .bss           0x0080007a        0x0 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_clear_bss.o)
+ .bss           0x0080007a        0x0 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr25\libc.a(memcmp.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x0080007a       0x10 Reciever.o
+                0x0080007a                pat_rcvd
+                0x00800082                sig_rcvd
+                0x0080008a                PROVIDE (__bss_end, .)
+                0x00000268                __data_load_start = LOADADDR (.data)
+                0x0000027a                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080008a        0x0
+                0x0080008a                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0080008a                PROVIDE (__noinit_end, .)
+                0x0080008a                _end = .
+                0x0080008a                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000      0x768
+ *(.stab)
+ .stab          0x00000000      0x6b4 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr25/crttn13a.o
+ .stab          0x000006b4       0xb4 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr25\libc.a(memcmp.o)
+                                 0xc0 (size before relaxing)
+
+.stabstr        0x00000000       0xe7
+ *(.stabstr)
+ .stabstr       0x00000000       0xe7 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr25/crttn13a.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x60
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_exit.o)
+ .debug_aranges
+                0x00000020       0x20 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_copy_data.o)
+ .debug_aranges
+                0x00000040       0x20 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_clear_bss.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0x29a
+ *(.debug_info)
+ .debug_info    0x00000000       0xde e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_exit.o)
+ .debug_info    0x000000de       0xde e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_copy_data.o)
+ .debug_info    0x000001bc       0xde e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_clear_bss.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000       0x3c
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x14 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_exit.o)
+ .debug_abbrev  0x00000014       0x14 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_copy_data.o)
+ .debug_abbrev  0x00000028       0x14 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_clear_bss.o)
+
+.debug_line     0x00000000      0x1a7
+ *(.debug_line)
+ .debug_line    0x00000000       0x88 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_exit.o)
+ .debug_line    0x00000088       0x91 e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_copy_data.o)
+ .debug_line    0x00000119       0x8e e:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr25\libgcc.a(_clear_bss.o)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(Reciever.elf elf32-avr)
+LOAD linker stubs

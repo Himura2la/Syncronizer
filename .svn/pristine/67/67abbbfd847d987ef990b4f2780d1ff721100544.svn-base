@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Reciever", "Reciever\Reciever.cproj", "{5EA95CB9-4276-4635-9E06-91FB03FED0FB}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Transmitter", "Transmitter\Transmitter.cproj", "{F08CDED8-6BC3-4DCB-9AA2-2CC8049120C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EA95CB9-4276-4635-9E06-91FB03FED0FB}.Debug|AVR.ActiveCfg = Debug|AVR
+		{5EA95CB9-4276-4635-9E06-91FB03FED0FB}.Debug|AVR.Build.0 = Debug|AVR
+		{5EA95CB9-4276-4635-9E06-91FB03FED0FB}.Release|AVR.ActiveCfg = Release|AVR
+		{5EA95CB9-4276-4635-9E06-91FB03FED0FB}.Release|AVR.Build.0 = Release|AVR
+		{F08CDED8-6BC3-4DCB-9AA2-2CC8049120C7}.Debug|AVR.ActiveCfg = Debug|AVR
+		{F08CDED8-6BC3-4DCB-9AA2-2CC8049120C7}.Debug|AVR.Build.0 = Debug|AVR
+		{F08CDED8-6BC3-4DCB-9AA2-2CC8049120C7}.Release|AVR.ActiveCfg = Release|AVR
+		{F08CDED8-6BC3-4DCB-9AA2-2CC8049120C7}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
